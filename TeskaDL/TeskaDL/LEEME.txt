@@ -1,0 +1,38 @@
+TeskaDL - by TESKADEV · teskadev.ar
+=====================================
+Bajá audio y video de YouTube (y cientos de sitios más) con un menú.
+Por debajo usa yt-dlp, ffmpeg y Deno. Todo queda en Descargas\TeskaDL.
+
+
+WINDOWS
+-------
+1. Descomprimí la carpeta TeskaDL donde quieras dejarla (no la borres después).
+2. Doble clic en TeskaDL.bat.
+3. La primera vez te pregunta si baja las herramientas (~300 MB, una sola vez).
+   Quedan en la carpeta "bin". No se instala nada ni pide administrador.
+4. Opcional: doble clic en "Crear acceso directo.bat" y después anclalo
+   a Inicio o a la barra de tareas.
+
+Si Windows muestra "Windows protegió su PC": Más información > Ejecutar de todas formas.
+
+
+MAC
+---
+1. Descomprimí la carpeta TeskaDL donde quieras dejarla.
+2. La primera vez: clic derecho en TeskaDL.command > Abrir > Abrir.
+   (Si igual no te deja, abrí Terminal y pegá:
+    xattr -dr com.apple.quarantine ~/Downloads/TeskaDL
+    cambiando la ruta si la carpeta está en otro lado.)
+3. Te pregunta si baja las herramientas (~200 MB, una sola vez).
+4. Para tenerlo en el Dock: doble clic en "Crear app para el Dock.command"
+   (la primera vez, igual que antes: clic derecho > Abrir). Te crea TeskaDL.app
+   con el ícono incluido; arrastrala al Dock.
+
+
+SI ALGO DEJA DE ANDAR
+---------------------
+Usá la opción [U] del menú para actualizar yt-dlp. YouTube cambia cosas
+seguido y casi siempre se arregla así.
+
+
+Usalo con contenido propio o con permiso. No resubas laburo ajeno.
