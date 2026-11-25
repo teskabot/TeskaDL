@@ -1,0 +1,61 @@
+TeskaDL - by TESKADEV · teskadev.ar
+=====================================
+Bajá audio y video de YouTube (y cientos de sitios más) con un menú.
+Por debajo usa yt-dlp, ffmpeg y Deno. Todo queda en Descargas\TeskaDL.
+
+
+WINDOWS
+-------
+1. Descomprimí la carpeta TeskaDL donde quieras dejarla (no la borres después).
+2. Doble clic en TeskaDL.bat.
+3. La primera vez te pregunta si baja las herramientas (~300 MB, una sola vez).
+   Quedan en la carpeta "bin". No se instala nada ni pide administrador.
+4. Opcional: doble clic en "Crear acceso directo.bat" y después anclalo
+   a Inicio o a la barra de tareas.
+
+Si Windows muestra "Windows protegió su PC": tocá "Más información" y
+después "Ejecutar de todas formas". Pasa solo la primera vez.
+
+
+MAC
+---
+1. Descomprimí la carpeta TeskaDL donde quieras dejarla (no la borres después).
+
+2. Doble clic en TeskaDL.command. macOS lo va a bloquear porque viene de
+   internet y no está firmado por Apple. Es normal. Para destrabarlo:
+     a. En el cartel que aparece, tocá "Listo" (NO "Mover a la papelera").
+     b. Abrí Ajustes del Sistema > Privacidad y seguridad.
+     c. Bajá hasta el final: vas a ver "Se bloqueó TeskaDL.command".
+        Tocá "Abrir de todos modos" y poné tu contraseña.
+     d. Volvé a hacer doble clic en TeskaDL.command > "Abrir de todos modos".
+   Esto se hace UNA sola vez: TeskaDL destraba el resto de la carpeta solo.
+
+   Atajo para los que se animan a la Terminal (destraba todo de una):
+     xattr -dr com.apple.quarantine
+   escribí eso, dejá un espacio, arrastrá la carpeta TeskaDL a la ventana
+   y apretá Enter.
+
+3. La primera vez te pregunta si baja las herramientas (~200 MB, una sola vez).
+   Quedan en la carpeta "bin". No se instala nada en tu sistema.
+
+4. Para tenerlo en el Dock: doble clic en "Crear app para el Dock.command".
+   Te crea TeskaDL.app con el ícono incluido; arrastrala al Dock.
+   La primera vez que abras la app, macOS pregunta si puede controlar
+   Terminal: decile que sí.
+
+
+DISCOS COMPLETOS SEPARADOS POR CANCIÓN
+--------------------------------------
+Opciones [6] (MP3) y [7] (WAV): para un video que es un disco entero
+dividido en capítulos. Te deja una carpeta con un archivo por canción,
+numerado y con su nombre. Si el video no tiene capítulos, te avisa y te
+deja el archivo entero.
+
+
+SI ALGO DEJA DE ANDAR
+---------------------
+Usá la opción [U] del menú para actualizar yt-dlp. YouTube cambia cosas
+seguido y casi siempre se arregla así.
+
+
+Usalo con contenido propio o con permiso. No resubas laburo ajeno.

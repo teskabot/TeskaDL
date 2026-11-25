@@ -1,0 +1,6 @@
+# Los .command (Mac) siempre con LF y los .bat (Windows) siempre con CRLF,
+# sin importar la configuracion de git de quien clone el repo.
+*.command text eol=lf
+*.bat     text eol=crlf
+*.ico     binary
+*.zip     binary
